@@ -1,0 +1,132 @@
+main {
+  margin-bottom: 50px;
+}
+.main {
+  margin: 0 auto;
+  background-color: white;
+  width: 778px;
+  padding: 32px 38px;
+  border-radius: 24px;
+}
+.main h2 {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41.6px;
+  margin-bottom: 16px;
+}
+.main p {
+  color: #b3b3b3;
+  margin-bottom: 32px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 20.8px;
+}
+.main .logo {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.logo a {
+  color: #5361e4;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+}
+.main label {
+  margin-bottom: 8px;
+}
+#name {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e3;
+  width: 700px;
+  padding: 18px;
+}
+#email {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e3;
+  width: 700px;
+  padding: 18px;
+}
+#number {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e3;
+  width: 700px;
+  padding: 18px;
+}
+.country {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#country {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 18px;
+  width: 340px;
+}
+#city {
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 18px;
+  width: 340px;
+}
+#place {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e3;
+  width: 700px;
+  padding: 18px;
+}
+#admin {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e3;
+  width: 700px;
+  padding: 18px;
+}
+.button {
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+.button .btnExit {
+  padding: 20px 40px;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  color: #6e6d77;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  letter-spacing: 1px;
+}
+.button .btnSave {
+  padding: 20px 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  background-color: #5361e4;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  letter-spacing: 1px;
+}
