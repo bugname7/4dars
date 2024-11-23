@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-function Header() {
+function Header({ logo }) {
   return (
     <div>
       <header>
@@ -9,7 +9,7 @@ function Header() {
           <div className="header">
             <div className="logo">
               <a href="#">
-                <img src="" alt="hello" />
+                <img src={logo} alt="hello" />
               </a>
             </div>
             <nav>
